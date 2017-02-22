@@ -1,0 +1,143 @@
+.hero-section{
+  height: 600px;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+.hero-writeup-section-small{
+  display: none;
+}
+.hero-writeup-section{
+  width:37%;
+  /*height: 77%;*/
+  background-color: #e0ecff;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 9%;
+  padding-top: 5%;
+}
+.main-heading{
+  font-weight: 300;
+  font-size: 46px;
+  color: #333333;
+}
+.description-text{
+  font-weight: 300;
+  font-size: 20px;
+}
+.purchase-link-section{
+  font-weight: 300;
+  font-weight: 14px;
+}
+.try-free-button{
+  color: white;
+  width: 230px;
+  height: 60px;
+  font-weight: 300;
+  text-align: center;
+  font-size: 22px;
+  background-color: #006dcc;
+  border: none;
+  border-radius: 10px;
+}
+.background-hero-image{
+  background-image: url("https://cfl.dropboxstatic.com/static/images/business/homepage/background--db-vfl4SbjZf.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  width: 54%;
+  height: 100%;
+}
+/*.hero-image-section{
+  width: 55%;
+  height: 100%;
+}
+.hero-background-image{
+  width:100%;
+  height: 100%;
+}*/
+
+@media (max-width:1200px){
+  .hero-writeup-section{
+    width:35%;
+    padding-left: 5%;
+    padding-top: 2%;
+  }
+  .main-heading{
+    font-size: 28px;
+  }
+  .description-text{
+    font-size: 16px;
+    height: 20%;
+  }
+  .purchase-link-section{
+    font-weight: 10px;
+  }
+  .try-free-button{
+    color: white;
+    width: 200px;
+    height: 55px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 17px;
+    background-color: #006dcc;
+    border: none;
+    border-radius: 10px;
+  }
+  .background-hero-image{
+    background-image: url("https://cfl.dropboxstatic.com/static/images/business/homepage/background--db-vfl4SbjZf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    width: 60%;
+    height: 100%;
+  }
+
+}
+
+@media (max-width:900px){
+  .hero-writeup-section{
+    background-image: url("https://cfl.dropboxstatic.com/static/images/business/homepage/background--db-vfl4SbjZf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-color: none;
+    width: 100%;
+  }
+  .background-hero-image{
+    display: none;
+  }
+  .main-heading{
+    width: 60%;
+  }
+  .description-text{
+    width: 60%;
+  }
+  .purchase-link-section{
+    font-weight: 10px;
+  }
+  .try-free-button{
+    color: white;
+    width: 200px;
+    height: 55px;
+    font-weight: 300;
+    text-align: center;
+    font-size: 17px;
+    background-color: #006dcc;
+    border: none;
+    border-radius: 10px;
+  }
+}
+@media (max-width:400px) {
+  .background-hero-image,.hero-writeup-section{
+    display: none;
+  }
+  .hero-writeup-section-small{
+    display: block;
+    background-color: #e0ecff;
+    width: 100%;
+    padding: 5%;
+  }
+  .main-heading, .description-text{
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,265 @@
+.promotion-section{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family: 'Open Sans', sans-serif;
+  border-top: 1px solid #dce0e0;
+  border-bottom: 1px solid #dce0e0;
+}
+.customer-support, .verified-id, .host-guarantee{
+  /*margin: 2%;*/
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 29%;
+  font-size: 14px;
+  font-weight: 400;
+}
+.customer-support, .host-guarantee{
+  border-right: 1px solid #dce0e0;
+}
+.customer-support-head, .verified-id-head, .host-guarantee-head{
+  margin-top: 0;
+}
+/******************************************************************************/
+.selectors-mobile{
+  display: none;
+}
+.selectors{
+  width: 21%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.country, .language{
+  width: 60%;
+  height: 50px;
+}
+.info-section, .detail-list-links-section{
+  width: 80%;
+  margin: auto;
+  text-transform: capitalize;
+}
+.detail-list-links-section{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.airbnb, .discover, .hosting{
+  width: 21%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.airbnb-head, .discover-head, .hosting-head{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin-top: 0;
+}
+.airbnb-list, .discover-list, .hosting-list{
+  list-style: none;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.language, .country{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  color: #595959;
+}
+.info-section{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-top: 1px solid #dce0e0 ;
+}
+.info-links-list{
+  margin-top:0;
+  float: right;
+}
+.info-links-list-item{
+  display: inline;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+a{
+  text-decoration: none;
+  color:#595959;
+}
+a:hover{
+  text-decoration: underline;
+}
+.terms-link, .sitemap-link{
+  font-family:  'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+.airbnb-logo{
+  display: inline-block;
+}
+.airbnb-name{
+  display: inline;
+  margin-top: 0;
+  font-family:  'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color:#595959;
+}
+/******************************************************************************/
+/******************************************************************************/
+/******************************************************************************/
+@media (max-width:1000px) {
+  .promotion-section{
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+}
+@media (max-width:900) {
+  .promotion-section{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .selectors{
+    width: 22%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .airbnb, .discover, .hosting{
+    width: 23%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .info-section, .detail-list-links-section{
+    width: 99%;
+    margin: auto;
+  }
+}
+@media (max-width:850px) {
+  .promotion-section{
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .customer-support, .verified-id, .host-guarantee{
+    /*margin: 2%;*/
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 31%;
+  }
+}
+@media (max-width: 750px){
+  .detail-list-links-section{
+    display: none;
+  }
+  .promotion-section{
+    padding-top: 2%;
+    padding-top: 2%
+  }
+  .customer-support, .verified-id, .host-guarantee{
+    /*margin: 2%;*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 100%;
+    text-align: center;
+  }
+  .customer-support, .host-guarantee{
+    border-right: none;
+  }
+  .customer-support-text, .host-guarantee-text{
+    border-bottom: 1px solid #dce0e0;
+    border-right: none;
+  }
+  .selectors-mobile{
+    display: block;
+    padding: 1%;
+    width: 90%;
+    margin: 2% auto;
+  }
+  .language-selector, .country-selector{
+    width: 30%;
+    display: inline;
+  }
+  .language-selector-form, .country-selector-form{
+    width: 100%;
+    display: inline;
+    padding-right: 1%;
+  }
+  .country, .language{
+    width: 48%;
+    height: 50px;
+    display: inline;
+    padding-right: 1%;
+  }
+  .info-section{
+    width: 90%;
+    margin: 2% auto;
+  }
+  .airbnb-logo{
+    width: 15%;
+  }
+  .airbnb-name{
+    padding-right:0;
+    width: 85%;
+  }
+  .sitemap-link{
+    display: none;
+  }
+}
+@media (max-width:690px) {
+  .airbnb-logo{
+    width: 17%;
+  }
+  .airbnb-name{
+    width: 83%;
+  }
+  .info-section{
+    margin: 3% auto;
+  }
+  .selectors-mobile{
+    margin: 3% auto;
+  }
+}
+@media (max-width:600px) {
+  .airbnb-logo{
+    width: 18%;
+  }
+  .airbnb-name{
+    width: 82%;
+  }
+}
+@media (max-width:560px) {
+  .airbnb-logo{
+    width: 21%;
+  }
+  .airbnb-name{
+    width: 79%;
+  }
+}
+@media (max-width:500px) {
+  .airbnb-logo{
+    width: 30%;
+  }
+  .airbnb-name{
+    width: 70%;
+  }
+  .info-section{
+    margin: 4% auto;
+  }
+  .selectors-mobile{
+    margin: 4% auto;
+  }
+}
+@media (max-width:400px) {
+  .airbnb-logo{
+    width: 36%;
+  }
+  .airbnb-name{
+    width: 64%;
+  }
+}
+@media (max-width:350px) {
+  .airbnb-logo{
+    width: 40%;
+  }
+  .airbnb-name{
+    width: 60%;
+  }
+}
